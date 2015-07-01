@@ -2,20 +2,18 @@ import os
 import sys
 import  re
 import getCONTENT
+import FORMATtoHTML
 
 
 
-docPath =  "/home/a/Programing/git"
+docPath =  "/home/a/Programing/git/"
+savePath = "/home/a/Programing/book/"
 # docPath = input("input the start Path:  ")
 docList,layerList = getCONTENT.listfile(docPath,1)
-getCONTENT.writeContent(docList,layerList,"/home/a/Programing/","aaa")
-for out in docList:
+pathList = getCONTENT.writeContent(docList,layerList,docPath,savePath,"aaa")
+for out in pathList:
 	print out
-for out in layerList:
-	print out
-	# print out[0:1]
-
-
+FORMATtoHTML.tohtml(pathList,docList,savePath,"aaa")
 
 
 #error way to choose dir 
