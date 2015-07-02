@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 978-7-308-05831-5//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package unique-identifier="bookid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns="http://www.idpf.org/2007/opf" version="2.0">
+<metadata>
+<dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<dc:creator>AloveZ</dc:creator>
+<dc:subject>Code</dc:subject>
+<dc:description/>Code from git<dc:description/>
+<dc:publisher>AloveZ.cc</dc:publisher>
+<dc:date>2015-07</dc:date>
+<dc:type>code</dc:type>
+<dc:format>Text/html(.html,.htm)</dc:format>
+<dc:identifier id="bookid" opf:scheme="ISBN"></dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:rights>Transform by AloveZ, please Replication and dissemination of licenses</dc:rights>
+<dc:contributor/>
+<dc:source/>
+<dc:relation/>
+<dc:coverage/>
+<x-metadata/>
+</metadata>
+<manifest>
+<item id="cimage" media-type="image/jpeg" href="pi.jpg" properties="cover-image"/>
+<item id="toc" properties="nav" href="content.html" media-type="text/html"/>
+</manifest>
+<spine>
+<itemref idref="toc"/>
+</spine>
+<guide/>
+</package>
