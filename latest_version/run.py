@@ -20,5 +20,6 @@ format.writeContent(bookname,dirTree)
 format.writeOPF(bookname, dirTree)
 format.tohtml(dirTree)
 
+
 os.system("cp ./pi.jpg ./"+bookname+"temp/pi.jpg")
 os.system("./kindlegen ./"+bookname+"temp/"+bookname+".opf")
