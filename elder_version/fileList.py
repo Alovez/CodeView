@@ -52,3 +52,4 @@ for out in pathList:
 # 			currentList.extend(listfile(nextPath,spaceNum+1,ford))
 # 		i+=1
 # 	return currentList
+#
